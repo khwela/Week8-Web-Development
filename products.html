@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Furni.shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Furni.shop</h1>
+        <!----Navigation Links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       
+        <img src="assets/images/ProductView.jpg" class="product-view" alt=" product view" width="70%" height="500px">
+        
+        <div class="view-options">
+            <h5> View: </h5>
+            <div id="list-view">
+                <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M640-120q-33 0-56.5-23.5T560-200v-160q0-33 23.5-56.5T640-440h160q33 0 56.5 23.5T880-360v160q0 33-23.5 56.5T800-120H640Zm0-80h160v-160H640v160ZM80-240v-80h360v80H80Zm560-280q-33 0-56.5-23.5T560-600v-160q0-33 23.5-56.5T640-840h160q33 0 56.5 23.5T880-760v160q0 33-23.5 56.5T800-520H640Zm0-80h160v-160H640v160ZM80-640v-80h360v80H80Zm640 360Zm0-400Z"/></svg></a>
+            </div>
+            <div id="grid-view">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-520v-320h320v320H120Zm0 400v-320h320v320H120Zm400-400v-320h320v320H520Zm0 400v-320h320v320H520ZM200-600h160v-160H200v160Zm400 0h160v-160H600v160Zm0 400h160v-160H600v160Zm-400 0h160v-160H200v160Zm400-400Zm0 240Zm-240 0Zm0-240Z"/></svg></a>
+            </div>
+        </div>
+        <section class="product-list">
+            <article class="product">
+                <img src="assets/images/chair.jpg" alt="Stylish Chair" width="200" height="200">
+                <div class="row">
+                    <h3>Occassional Chair</h3>
+                    <p>Comfortable and modern chair perfect for any living space.</p>
+                    <p>Price: $99.99</p>
+                    <button href="cart.html" onclick="addToCart('Stylish Chair', 99.99)">Add to Cart</button>
+                  
+                </div>
+              
+            </article>
+            <article class="product">
+                <img src="assets/images/sittingroom.jpg" alt="Cozy Couch" width="200" height="200">
+                <div class="row">
+                    <h3>Sitting Room setup</h3>
+                    <p>Spacious and cozy couch ideal for family gatherings.</p>
+                    <p>Price: $499.99</p>
+                    <button href="cart.html" onclick="addToCart('Cozy Couch', 499.99)">Add to Cart</button>
+                </div>
+               
+            </article>
+            <article class="product">
+                <img src="assets/images/cozy.jpg" alt="Stylish Chair" width="200" height="200">
+                <div class="row">
+                   
+                    <h3>Stylish Chair</h3>
+                    <p>Comfortable and modern chair perfect for any living space.</p>
+                    <p>Price: $99.99</p>
+                    
+                    <button href="cart.html" onclick="addToCart('Stylish Chair', 99.99)">Add to Cart</button>
+                </div>
+                
+            </article>
+            <article class="product">
+
+                <img src="assets/images/sittingroom2.jpg" alt="Cozy Couch" width="200" height="200">
+                <div class="row">
+                    <h3>Cozy Couch</h3><br>
+                    <p>Spacious and cozy couch ideal for family gatherings.</p>
+                    <p>Price: $499.99</p>
+                    <button href="cart.html" onclick="addToCart('Cozy Couch', 499.99)">Add to Cart</button>
+                </div>
+               
+            </article>
+           
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Furni.shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
