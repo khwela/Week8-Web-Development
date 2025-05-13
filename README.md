@@ -1,5 +1,6 @@
 #Furni.shop
-NB!! -Please for the right code website please go to master branch.
+
+NB!! -Please for the right website please go to master branch.
 
 Your Furni.shop ecommerce website is a platform designed to sell high-quality furniture, specifically chairs and couches,
 with a focus on comfort, style, and affordability. Here's an overview of its features and functionality:
